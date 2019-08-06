@@ -14,11 +14,11 @@
 		64925F6F22F7545E0087C22D /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64925F6E22F7545E0087C22D /* backmusic.mp3 */; };
 		64925F7122F754680087C22D /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64925F7022F754680087C22D /* cymbal.mp3 */; };
 		64925F7322F7546F0087C22D /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64925F7222F7546F0087C22D /* guitar.mp3 */; };
-		64925F7422F7682E0087C22D /* singApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 64925F5922F7430F0087C22D /* singApp.app */; };
+		64925F7422F7682E0087C22D /* MyMusicApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 64925F5922F7430F0087C22D /* MyMusicApp.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64925F5922F7430F0087C22D /* singApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64925F5922F7430F0087C22D /* MyMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64925F5C22F7430F0087C22D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64925F5E22F7430F0087C22D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64925F6122F7430F0087C22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		64925F5022F7430F0087C22D = {
 			isa = PBXGroup;
 			children = (
-				64925F5B22F7430F0087C22D /* singApp */,
+				64925F5B22F7430F0087C22D /* MyMusicApp */,
 				64925F5A22F7430F0087C22D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		64925F5A22F7430F0087C22D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64925F5922F7430F0087C22D /* singApp.app */,
+				64925F5922F7430F0087C22D /* MyMusicApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64925F5B22F7430F0087C22D /* singApp */ = {
+		64925F5B22F7430F0087C22D /* MyMusicApp */ = {
 			isa = PBXGroup;
 			children = (
 				64925F5C22F7430F0087C22D /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				64925F7022F754680087C22D /* cymbal.mp3 */,
 				64925F7222F7546F0087C22D /* guitar.mp3 */,
 			);
-			path = singApp;
+			path = MyMusicApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64925F5822F7430F0087C22D /* singApp */ = {
+		64925F5822F7430F0087C22D /* MyMusicApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64925F6B22F743100087C22D /* Build configuration list for PBXNativeTarget "singApp" */;
+			buildConfigurationList = 64925F6B22F743100087C22D /* Build configuration list for PBXNativeTarget "MyMusicApp" */;
 			buildPhases = (
 				64925F5522F7430F0087C22D /* Sources */,
 				64925F5622F7430F0087C22D /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = singApp;
+			name = MyMusicApp;
 			productName = singApp;
-			productReference = 64925F5922F7430F0087C22D /* singApp.app */;
+			productReference = 64925F5922F7430F0087C22D /* MyMusicApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 64925F5422F7430F0087C22D /* Build configuration list for PBXProject "singApp" */;
+			buildConfigurationList = 64925F5422F7430F0087C22D /* Build configuration list for PBXProject "MyMusicApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64925F5822F7430F0087C22D /* singApp */,
+				64925F5822F7430F0087C22D /* MyMusicApp */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +135,7 @@
 				64925F7122F754680087C22D /* cymbal.mp3 in Resources */,
 				64925F7322F7546F0087C22D /* guitar.mp3 in Resources */,
 				64925F6F22F7545E0087C22D /* backmusic.mp3 in Resources */,
-				64925F7422F7682E0087C22D /* singApp.app in Resources */,
+				64925F7422F7682E0087C22D /* MyMusicApp.app in Resources */,
 				64925F6422F743100087C22D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64925F5422F7430F0087C22D /* Build configuration list for PBXProject "singApp" */ = {
+		64925F5422F7430F0087C22D /* Build configuration list for PBXProject "MyMusicApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64925F6922F743100087C22D /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64925F6B22F743100087C22D /* Build configuration list for PBXNativeTarget "singApp" */ = {
+		64925F6B22F743100087C22D /* Build configuration list for PBXNativeTarget "MyMusicApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64925F6C22F743100087C22D /* Debug */,
